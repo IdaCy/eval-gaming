@@ -1,0 +1,1 @@
+The AppArmor profile in harness/workspace-default-v1.apparmor is modified from github.com/moby/profiles/apparmor v0.2.2, Copyright The Moby Authors, under Apache-2.0. See Apache-2.0.txt. Other project code is covered by the root MIT licence.
