@@ -9,3 +9,7 @@ Here in this repository, we release the code and data for the paper. The tasks a
 
 Outputs restricted to confidential research access are excluded.
 
+License: MIT for the code; CC BY 4.0 for the data created in this work. Tasks keep the licenses of their sources.
+
+## Installation
+
