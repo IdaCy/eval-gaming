@@ -13,3 +13,6 @@ License: MIT for the code; CC BY 4.0 for the data created in this work. Tasks ke
 
 ## Installation
 
+Use Python 3.12. The paper analyses run on CPU.
+
+```sh
