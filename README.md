@@ -16,3 +16,7 @@ License: MIT for the code; CC BY 4.0 for the data created in this work. Tasks ke
 Use Python 3.12. The paper analyses run on CPU.
 
 ```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+python download_data.py
