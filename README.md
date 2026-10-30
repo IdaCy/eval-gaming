@@ -20,3 +20,7 @@ python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
 python download_data.py
+```
+
+The download is anonymous. The default download contains tables, tasks, setups, prompts and samples. Add `--include-bulk` to download `data/runs/` and `data/labels/` when they are available. Optional GPU dependencies are pinned in `analysis/steering/requirements-extraction.txt` and `analysis/steering/requirements-generation.txt`; generation also requires Docker and prepared task assets.
+
