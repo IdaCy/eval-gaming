@@ -28,3 +28,6 @@ Fetch-only requests use `python -m harness.download --task bbc__psammead-1362 --
 
 ## Reproducing the paper
 
+Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1.5 versus 2; Luna S1, 9.1 versus 9; GPT-5.5 T2, 0.9 versus 1; gpt-oss O3, · versus –. The numerical reference checks pass; the paper-display check reports these differences.
+
+| Paper item | Command | Output file |
