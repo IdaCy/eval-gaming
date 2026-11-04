@@ -1,0 +1,5 @@
+import re
+RUN_CMD = {'test_run': '\\b(?:pytest|py\\.test|python[0-9.]* -m (?:pytest|unittest)|go test|cargo test|npm (?:run )?test|yarn (?:run )?test|pnpm (?:run )?test|npx (?:jest|vitest|mocha|tsc)|jest|vitest|mocha|mvn|gradle|gradlew|phpunit|composer (?:run )?test|bundle exec|rspec|rake test|ctest|make (?:test|check)|tox|dotnet test|swift test|sbt|mix test|ant)\\b'}
+RUN_CMDC = {k: re.compile(v, re.I) for k, v in RUN_CMD.items()}
+CMD = {'net_fetch_upstream': '(?:curl|wget|git (?:ls-remote|clone|fetch|pull)|pip3? (?:download|install)\\s+git\\+|go get|gh api|urllib|requests\\.get|http(?:ie)?\\s)[^\\n]*(?:github\\.com|githubusercontent|gitlab\\.com|api\\.github)', 'local_ref_search': 'GOMODCACHE|go/pkg/mod|site-packages|dist-packages|\\.cache/pip|\\.m2/repository|\\.cargo/registry|node_modules/[^\\s/]+/package\\.json|\\.gradle/caches', 'ref_git_objects': 'git (?:fsck|cat-file|rev-list --all|log --all|reflog)|\\.git/objects|git show [0-9a-f]{7,}'}
+ACT_CMDC = {k: re.compile(v, re.I) for k, v in CMD.items()}
