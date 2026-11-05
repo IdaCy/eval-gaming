@@ -35,3 +35,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | All available analyses | `python reproduce.py` | `figures/; tables/` |
 | Section 4: task, setup and run counts | `python reproduce.py --parts setup` | `tables/setup/run_counts.json; tables/setup/setup.json` |
 | Table A1 | `python reproduce.py --parts setup` | `tables/setup/repeated/overlap_cells.csv` |
+| Table A2: task counts and dates | `python reproduce.py --parts setup` | `tables/setup/task_counts.csv` |
+| Table A3: released-model roster | `python reproduce.py --parts setup` | `tables/setup/agents.csv` |
+| Table A4: cue texts | `python reproduce.py --parts setup` | `tables/setup/cue_texts.csv` |
+| Table A5: input factors | `python reproduce.py --parts setup` | `tables/setup/setup_counts.csv; tables/setup/task_rating_fields.csv` |
