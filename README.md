@@ -39,3 +39,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Table A3: released-model roster | `python reproduce.py --parts setup` | `tables/setup/agents.csv` |
 | Table A4: cue texts | `python reproduce.py --parts setup` | `tables/setup/cue_texts.csv` |
 | Table A5: input factors | `python reproduce.py --parts setup` | `tables/setup/setup_counts.csv; tables/setup/task_rating_fields.csv` |
+| Appendix A.10: prompts and setup carriers | `python reproduce.py --parts setup` | `tables/setup/setup.json` |
+| Figures 1–3: drawing sources unavailable | — | — |
+| Sections 5.1–5.2 and Tables A6–A7 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/paper_numbers.json` |
+| Table A8 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/tableA8_levels.csv` |
