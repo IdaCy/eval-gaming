@@ -50,3 +50,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Figure 6: released models | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_data_tasks_reports.pdf` |
 | Figure A1: frozen printed intervals | `python reproduce.py --parts paper_values` | `figures/paper_values/fig_A1_frozen.pdf; tables/paper_values/figure_a1_frozen.csv` |
 | Figure A2 | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_what_changed_name.pdf` |
+| Section 5.3 and Table A12 | `python reproduce.py --parts expectation` | `tables/expectation/table_A12.csv; tables/expectation/work_summary.json` |
+| Table A13 | `python reproduce.py --parts expectation` | `tables/expectation/table_A13.csv` |
+| Section 5.4 and Table A14 | `python reproduce.py --parts expectation` | `tables/expectation/table_A14_paper.csv; tables/expectation/forward_summary.json` |
+| Equation A1 | `python reproduce.py --parts expectation` | `tables/expectation/response_fit.json` |
