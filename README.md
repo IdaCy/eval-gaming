@@ -43,3 +43,6 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Figures 1–3: drawing sources unavailable | — | — |
 | Sections 5.1–5.2 and Tables A6–A7 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/paper_numbers.json` |
 | Table A8 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/tableA8_levels.csv` |
+| Tables A9–A10: run-level refits | `python reproduce.py --parts action_refits` | `tables/action_refits/tablesA9_A10.csv` |
+| Table A11 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/pooled_differences.csv; tables/awareness_grading/tableA11_judged.csv` |
+| Figure 4 | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_awareness_two_sentences.pdf` |
