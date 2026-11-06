@@ -46,3 +46,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Tables A9–A10: run-level refits | `python reproduce.py --parts action_refits` | `tables/action_refits/tablesA9_A10.csv` |
 | Table A11 | `python reproduce.py --parts awareness_grading` | `tables/awareness_grading/pooled_differences.csv; tables/awareness_grading/tableA11_judged.csv` |
 | Figure 4 | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_awareness_two_sentences.pdf` |
+| Figure 5 | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_auc_by_cue_and_agent.pdf` |
+| Figure 6: released models | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_data_tasks_reports.pdf` |
+| Figure A1: frozen printed intervals | `python reproduce.py --parts paper_values` | `figures/paper_values/fig_A1_frozen.pdf; tables/paper_values/figure_a1_frozen.csv` |
+| Figure A2 | `python reproduce.py --parts awareness_grading` | `figures/awareness_grading/fig_what_changed_name.pdf` |
