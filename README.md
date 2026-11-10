@@ -58,3 +58,6 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Figure 7 | `python reproduce.py --parts factors` | `figures/factors/fig_input_factors.pdf` |
 | Figure A3 | `python reproduce.py --parts factors` | `figures/factors/fig_differences_per_agent.pdf` |
 | Figure A4 | `python reproduce.py --parts factors` | `figures/factors/fig_issue_age.pdf` |
+| Table A15 | `python reproduce.py --parts factors` | `tables/factors/table_A15.csv` |
+| Table A16 | `python reproduce.py --parts factors` | `tables/factors/table_A16.csv` |
+| Table A17 | `python reproduce.py --parts factors` | `tables/factors/table_A17.csv` |
