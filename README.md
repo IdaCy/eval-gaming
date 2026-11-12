@@ -65,3 +65,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Section 5.6 | `python reproduce.py --parts sensitivity_records` | `tables/sensitivity_records/sensitivity_summary.json; tables/sensitivity_records/setups_corrected/setups58_agents.json` |
 | Figure 8: released models | `python reproduce.py --parts sensitivity_records` | `figures/sensitivity_records/fig_8.pdf` |
 | Figure A5: released models | `python reproduce.py --parts sensitivity_records` | `figures/sensitivity_records/fig_A5.pdf` |
+| Figures A6–A9 | `python reproduce.py --parts sensitivity_records` | `figures/sensitivity_records/fig_A6.pdf; figures/sensitivity_records/fig_A7.pdf; figures/sensitivity_records/fig_A8.pdf; figures/sensitivity_records/fig_A9.pdf` |
+| Sections 6.1–6.2 | `python reproduce.py --parts sensitivity_records` | `tables/sensitivity_records/records.json` |
+| Tables 1 and A19: available entries | `python reproduce.py --parts sensitivity_records` | `tables/sensitivity_records/table_1.csv; tables/sensitivity_records/table_A19.csv` |
+| Figure 9 | `python reproduce.py --parts sensitivity_records` | `figures/sensitivity_records/fig_9.pdf` |
