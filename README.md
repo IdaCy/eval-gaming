@@ -73,3 +73,6 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Figure A11 | `python reproduce.py --parts action_refits` | `tables/action_refits/fig_A11.pdf; tables/action_refits/answer_key_example.json` |
 | Section 6.3 and Table A20 | `python reproduce.py --parts steering` | `tables/steering/table_a20.csv; tables/steering/directions/facts.json` |
 | Figure 10 | `python reproduce.py --parts steering` | `figures/steering/fig_steering_random_rows.pdf` |
+| Figure A12 | `python reproduce.py --parts steering` | `figures/steering/fig_steering_lines_what_qwen_says.pdf` |
+| Figure A13 | `python reproduce.py --parts steering` | `figures/steering/fig_steering_controls_with_literature_what_qwen_does.pdf` |
+| Appendix A.9: turn windows | `python reproduce.py --parts steering` | `tables/steering/turn_windows.csv` |
