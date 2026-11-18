@@ -80,3 +80,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Section 5.3: credited-tests work refits | `python reproduce.py --parts action_refits` | `tables/action_refits/expectation/work_summary.json` |
 | Conditional choice: 87/85/66/52% | `python reproduce.py --parts paper_values` | `tables/paper_values/conditional_choice.csv` |
 | Grading-reason labels: 1,025/1,094 | `python reproduce.py --parts paper_values` | `tables/paper_values/reasoning_share.json` |
+| Internet triage: 37 read runs, 13 fetches, 12 incorporations | `python reproduce.py --parts paper_values` | `tables/paper_values/internet_triage.json` |
+| gpt-oss: 407 usable completions in the first block | `python reproduce.py --parts paper_values` | `tables/paper_values/completions.json` |
+| Two-rater task battery: 322 tasks × 16 items | `python reproduce.py --parts paper_values` | `tables/paper_values/task_ratings.json` |
+| Table A19: +30/+16/+11 weighted changes | `python reproduce.py --parts paper_values` | `tables/paper_values/cue_contrasts.csv` |
