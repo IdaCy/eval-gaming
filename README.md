@@ -76,3 +76,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | Figure A12 | `python reproduce.py --parts steering` | `figures/steering/fig_steering_lines_what_qwen_says.pdf` |
 | Figure A13 | `python reproduce.py --parts steering` | `figures/steering/fig_steering_controls_with_literature_what_qwen_does.pdf` |
 | Appendix A.9: turn windows | `python reproduce.py --parts steering` | `tables/steering/turn_windows.csv` |
+| Original AUC and action refits: nine models plus the corrected credited-tests route | `python reproduce.py --parts action_refits` | `tables/action_refits/auc_original/; tables/action_refits/auc_credited/; tables/action_refits/validation.json` |
+| Section 5.3: credited-tests work refits | `python reproduce.py --parts action_refits` | `tables/action_refits/expectation/work_summary.json` |
+| Conditional choice: 87/85/66/52% | `python reproduce.py --parts paper_values` | `tables/paper_values/conditional_choice.csv` |
+| Grading-reason labels: 1,025/1,094 | `python reproduce.py --parts paper_values` | `tables/paper_values/reasoning_share.json` |
