@@ -84,3 +84,7 @@ Table A10 has four display differences (reproduced versus paper): DeepSeek T2, 1
 | gpt-oss: 407 usable completions in the first block | `python reproduce.py --parts paper_values` | `tables/paper_values/completions.json` |
 | Two-rater task battery: 322 tasks × 16 items | `python reproduce.py --parts paper_values` | `tables/paper_values/task_ratings.json` |
 | Table A19: +30/+16/+11 weighted changes | `python reproduce.py --parts paper_values` | `tables/paper_values/cue_contrasts.csv` |
+| Table A11: 59 rule issues, 58 matched within the same block | `python reproduce.py --parts paper_values` | `tables/paper_values/opus_pairs.csv` |
+| Disclosure: 0/359, 40/258, 4/56 | `python reproduce.py --parts paper_values` | `tables/paper_values/disclosure.json` |
+| 21-model tests and output-token intervals: frozen endpoints | `python reproduce.py --parts paper_values` | `tables/paper_values/pooled_intervals_frozen.csv` |
+| Grader-address regex and retrieved-candidate counts | `python reproduce.py --parts paper_values` | `tables/paper_values/qualitative_counts.json` |
